@@ -1,0 +1,9 @@
+{
+  "short_name": "Evm-Everscale",
+  "name": "Evm - Everscale octus bridge unofficial sample for simple transfer",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

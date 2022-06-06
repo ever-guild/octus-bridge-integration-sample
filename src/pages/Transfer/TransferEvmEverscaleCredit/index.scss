@@ -1,0 +1,67 @@
+.transfer-ever-everscale-default-page-container {
+    margin: auto;
+    min-height: 320px;
+
+    .transfer-ever-everscale-default-page-layout {
+        display: flex;
+        flex-direction: row;
+
+        .transfer-ever-everscale-default-page-error {
+            color: red;
+            font-size: 16px;
+            width: 380px;
+        }
+        @media only screen and (max-width : 380px) {
+            .transfer-ever-everscale-default-page-error {
+                width: 320px;
+            }
+        }
+
+        .transfer-ever-everscale-default-page-token-select-container {
+            margin-top: 20px;
+        }
+
+        .transfer-ever-everscale-default-page-group-container {
+            margin: 20px 0;
+            width: 380px;
+            border-bottom:  1px solid lightgray
+        }
+        @media only screen and (max-width : 380px) {
+            .transfer-ever-everscale-default-page-group-container {
+                width: 380px;
+            }
+        }
+
+        .transfer-ever-everscale-default-summary {
+            border: 1px solid darkgray;
+            padding: 10px;
+            width: 380px;
+            box-sizing: border-box;
+            h4 {
+                border-bottom: 1px solid lightgray;
+            }
+            .transfer-ever-everscale-default-summary-info-line {
+                padding: 10px 0;
+            }
+        }
+        @media only screen and (max-width : 380px) {
+            .transfer-ever-everscale-default-summary {
+                width: 320px;
+            }
+        }
+        @media only screen and (min-width : 901px) {
+            .transfer-ever-everscale-default-summary {
+                margin-left: 20px;
+            }
+        }
+        .float-right {
+            float: right;
+        }
+    }
+
+    @media only screen and (max-width : 900px) {
+        .transfer-ever-everscale-default-page-layout {
+            flex-direction: column;
+        }
+    }
+}

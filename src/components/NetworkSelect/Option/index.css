@@ -1,0 +1,28 @@
+
+.network-select-dropdown .network-select-option-container {
+    min-height: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.network-select-option {
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.network-select-option .network-select-option-text {
+    padding-left: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.network-select-option .network-select-option-icon {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 1px solid darkgrey;
+    width: 20px;
+    height: 20px;
+}

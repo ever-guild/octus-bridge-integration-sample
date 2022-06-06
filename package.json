@@ -1,0 +1,103 @@
+{
+  "name": "evm-everscale",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=16",
+    "npm": ">=8"
+  },
+  "dependencies": {
+    "@ethersproject/providers": "^5.6.5",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "abi-decoder": "^2.4.0",
+    "bignumber.js": "^9.0.2",
+    "eth-ton-abi-converter": "^0.3.2",
+    "everscale-inpage-provider": "^0.3.9",
+    "lodash.uniqby": "^4.7.0",
+    "rc-select": "^14.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.0",
+    "web3": "^1.7.1",
+    "web3-core": "^1.7.1",
+    "web3-eth-contract": "^1.7.3",
+    "web3-utils": "^1.7.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@babel/runtime": "^7.17.7",
+    "@babel/runtime-corejs3": "^7.16.8",
+    "@types/jest": "^27.5.0",
+    "@types/lodash.uniqby": "^4.7.7",
+    "@types/node": "^16.11.33",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "17.0.2",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/webpack": "^5.28.0",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "assert": "^2.0.0",
+    "babel-loader": "^8.2.5",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "events": "^3.3.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "path": "^0.12.7",
+    "prettier": "2.6.2",
+    "process": "^0.11.10",
+    "readable-stream": "^3.6.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "style-loader": "^3.3.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4",
+    "url": "^0.11.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "scripts": {
+    "serve": "npx webpack serve --mode development --config webpack.config.ts",
+    "start": "npm run serve -- --hot --live-reload --client-overlay",
+    "build": "npx webpack --mode production --config webpack.config.ts",
+    "lint": "eslint ."
+  },
+  "browser": {
+    "crypto": false
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

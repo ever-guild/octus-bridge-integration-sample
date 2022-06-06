@@ -1,0 +1,40 @@
+.network-select-container {
+    position: relative;
+}
+.network-select-container .network-select-arrow-container {
+    position: absolute;
+    top: calc(50% - 10px);
+    right: 10px;
+}
+
+.network-select-selector {
+    width: 340px;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 6px;
+    min-height: 24px;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.network-select-selector .network-select-selection-placeholder {
+    padding-left: 15px;
+}
+
+.network-select-dropdown {
+    background-color: #dce4e7;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: normal;
+    min-height: 32px;
+    padding: 0;
+    position: relative;
+}
+
+.network-select-selection-search-input, .network-select-item-option-state {
+    display: none;
+}
+.network-select-dropdown-hidden {
+    display: none;
+}
+

@@ -1,0 +1,23 @@
+.simple-amount-input-container {
+    .simple-amount-input {
+        position: relative;
+        width: 380px;
+        padding: 10px 20px;
+        background: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+
+    .simple-amount-input-label {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    @media only screen and (max-width : 380px) {
+        .simple-amount-input {
+            width: 320px;
+        }
+    }
+}

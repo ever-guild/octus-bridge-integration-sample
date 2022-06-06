@@ -1,0 +1,27 @@
+.token-select-dropdown .token-select-option-container {
+    min-height: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.token-select-option {
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.token-select-option .token-select-option-text {
+    padding-left: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.token-select-option .token-select-option-icon {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 1px solid darkgrey;
+    width: 20px;
+    height: 20px;
+}
